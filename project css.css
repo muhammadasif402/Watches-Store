@@ -1,0 +1,92 @@
+body
+{
+    background: #ffffff; 
+}
+
+a
+{
+	font-weight:lighter;
+	color:white;
+	display: ;
+}
+.cool-link::after{
+content: '';
+display: block;
+width: 0;
+height: 2px;
+background: #fff;
+transition: width .3s
+}
+.cool-link:hover::after {
+	width: 100%;
+	transition: width .3s;
+}
+.bg1
+{
+	
+  background-image: url('div213.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text21 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container32 {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-left32{
+  position: absolute;
+  bottom: 38px;
+  left: 16px;
+}
+.card:hover
+{
+  -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75);
+  box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75) ;
+}
+
+.top-left32 {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right32 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right32 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered32 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  

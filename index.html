@@ -1,0 +1,392 @@
+<!-- <?php
+$c=new mysqli("localhost","root","","web");
+$a="SELECT * FROM `product`";
+$result=$c->query($a);
+
+
+if (isset($_GET['signup'])) 
+{
+$Name=$_GET["Name"];
+$email=$_GET["email"];
+$password=$_GET["password"];
+$Address=$_GET["Address"];
+
+$c=new mysqli("localhost","root","","web");
+$s="INSERT INTO `signup` (`Name`, `email`, `password`, `Address`) VALUES ('$Name', '$email', '$password', '$Address')";
+  $c->query($s);
+}
+?> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap\css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.1-web\css\all.css">
+	<link rel="stylesheet" type="text/css" href="project css.css">
+	<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="bootstrap\js\bootstrap.bundle.js"></script>
+  <script type="text/javascript">
+  
+  $(document).ready(function(){
+    
+    $('.ovrly').hover(
+      function(){
+        $(this).animate({
+          marginTop: "-=1%",
+        },200);
+      },
+      function(){
+        $(this).animate({
+          marginTop: "0%",
+        },200);
+      }
+    );
+  });
+
+  </script>
+
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="navbar-nav col-12 col-sm-12 col-md-12" style="text-align: center;  font-size: 18px;"><p style="color:#191919">Sign up for our mailing list and get 5% off – Free shipping on all US orders over $299</p></div>
+</div>
+</div>
+<!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3" style="background-color: black">
+    <a href="index.html">
+  <img src="watches_logo_154x.png" class="d-inline-block align-top " alt="" loading="lazy"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon bg-secondary"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto" style="margin-left: 50px;">
+      <li class="nav-item" style="margin-left: 50px;">
+        <a class="nav-link cool-link text-white" href="index.html"><h6>MEN'S WATCHES</h6></a>
+      </li>
+      <li class="nav-item" style="margin-left: 50px;">
+        <a class="nav-link cool-link text-white" href="index.html"><h6>WOMEN'S WATCHES</h6></a>
+      </li>
+      <li class="nav-item" style="margin-left: 50px;">
+        <a class="nav-link cool-link text-white" href="index.html"><h6>ABOUT US</h6></a>
+      </li>
+      <li class="nav-item" style="margin-left: 50px;">
+        <a class="nav-link cool-link text-white" href="index.html"><h6>OUR TEAM</h6></a>
+      </li>
+     </ul>
+  </div>
+  <div class="d-none d-sm-block">
+    <span class="fa fa-search text-white" aria-hidden="true" style="padding: 10px;"></span> 
+  <span class="fa fa-shopping-bag text-white" aria-hidden="true" style="padding: 10px;"></span>
+   <a href="signin.html"><span class="fa fa-user text-white" aria-hidden="true" style="padding: 10px;" >
+     </span></a> 
+</div>
+</nav>
+<div class="container32" style="margin-top: 70px;">
+  <div class="">
+  <div class="col-md-12 col-sm-12 col-lg-12">
+    <img src="watchesn2.jpg" alt="Snow" style="width:100%;"></div>
+  </div>
+  <div class="centered32"><h3>Since 1929</h3>
+    <h1>Swiss Made </h1>
+    <a href="index.html" class="text-dark cool-link">Discover Now →</a></div>
+</div>
+  <div class="container" style="margin-top: 150px;">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12">
+<h1 style="text-align: center;">Our Collections</h1>  
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12" style="margin-top: 30px;"><h4 style="text-align: center;">
+A great about us block helps builds trust between you and
+your customers. The more content you provide about you and
+your business, the more confident people will be when 
+purchasing from your store.</h4>
+</div>
+</div>
+</div>
+<div class="container-fluid d-none d-sm-none d-md-block" style="margin-top: 75px;">
+      <div class="row">
+        <div class="col-3">
+          <div class="col-12 ovrly">
+            <div class="card bg-dark text-white">
+  <img class="card-img" src="watcheswm.jpg" alt="Card image">
+  <div class="card-img-overlay">
+<a href="index.html"><h3 class="card-title">WOMEN'S WATCHES→</h3>
+</a> 
+</div>
+</div>
+</div>
+          <div class="col-12" style="margin-top: 90px;">     <div class="card bg-dark text-white">
+  <img class="card-img" src="watches333.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <a href="index.html"><h3 class="card-title">NEW ARRIVAL→</h3>
+</a> 
+  </div>
+</div></div>
+        </div>
+        <div class="col-6 ovrly">    <div class="card bg-dark text-white">
+  <img class="card-img" src="watches222.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <a href="index.html"><h3 class="card-title">MEN'S WATCHES→</h3>
+</a> 
+  </div>
+</div></div>
+        <div class="col-3 ovrly">
+          <div class="col-12 ">     <div class="card bg-dark text-white">
+  <img class="card-img" src="watches444.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <a href="index.html"><h3 class="card-title">Clearance Sale→</h3>
+</a> 
+  </div>
+</div></div>
+          <div class="col-12" style="margin-top: 90px;">    <div class="card bg-dark text-white">
+  <img class="card-img" src="watches78.jpg" alt="Card image">
+  <div class="card-img-overlay">
+<a href="index.html"><h3 class="card-title">Discover now→</h3>
+</a> 
+  </div>
+</div></div>
+        </div>
+      </div>
+  </div>
+  <div class="container-fluid dd-none d-sm-block d-md-none" style="margin-top: 75px;">
+    <div class="row">
+    <div class="col-sm-12 ovrly">
+        <div class="card bg-dark text-white">
+  <img class="card-img" src="watcheswm.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <a href="index.html"><h3 class="card-title">WOMEN'S WATCHES→</h3>
+</a> 
+  </div>
+</div>
+    </div>
+    </div>
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-sm-12 ovrly">
+           <div class="card bg-dark text-white">
+  <img class="card-img" src="watches333.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <a href="index.html"><h3 class="card-title">NEW ARRIVAL→</h3>
+</a> 
+  </div>
+</div>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 50px;">
+         <div class="col-sm-12 ovrly">
+           <div class="card bg-dark text-white">
+  <img class="card-img" src="watches222.jpg" alt="Card image">
+  <div class="card-img-overlay">
+     <a href="index.html"><h3 class="card-title">MEN'S WATCHES→</h3>
+</a> 
+  </div>
+</div>
+         </div>
+    </div>
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-sm-12 ovrly">
+           <div class="card bg-dark text-white">
+  <img class="card-img" src="watches444.jpg" alt="Card image">
+  <div class="card-img-overlay">
+    <a href="index.html"><h3 class="card-title">Clearance Sale→</h3>
+</a>
+  </div>
+</div>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 50px;">
+      <div class="col-sm-12 ovrly">
+           <div class="card bg-dark text-white">
+  <img class="card-img" src="watches78.jpg" alt="Card image">
+  <div class="card-img-overlay">
+   <a href=""><h3 class="card-title">WOMEN'S WATCHES→</h3>
+</a> 
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="margin-top: 150px;">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12">
+<h1 style="text-align: center;">Most Popular</h1>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-12" style="margin-top: 30px;"><h4 class="text-center">
+Browse our extensive range in a choice of materials,shapes,
+sizes and <br> colours to suit your cooking needs.</h4></div>
+</div>
+</div>
+<div class="container">
+  <div class="col-sm-6 col-md-12 col-lg-12" style="text-align: center; margin-top: 75px;">
+<button class="btn btn-lg bg-primary" ><a href="index.html">View All Wacthes →</a></button>
+</div>
+</div>
+<!-- products -->
+  <!-- <div class="container-fluid" style="margin-top: 70px;">
+    <div class="row">
+  <?php while ($row=$result->fetch_assoc()) { ?>
+
+      <div class="col-lg-3 col-md-4 col-sm-6" style="margin-top: 50px;">
+        <div class="card ovrly" style="width: 100%;">
+            <img src="<?php echo $row['Image']?>" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><?php echo $row["Name"] ?></h5>
+                  <p class="card-text"><?php echo $row["Price"] ?></p>
+              <a href="addcart.php?Id=<?php echo $row["Id"] ?>" class="btn-primary btn-lg">Add to Cart →</a>
+            </div>
+        </div>
+      </div>
+    <?php } ?> -->
+    </div>
+  </div>
+s<div class="container-fluid bg1" style="margin-top: 120px;">
+<div class="row">
+<div class="col-lg-12 col-sm-12 col-md-12 d-block" style=" margin-top: 230px;" >
+<h1 >About Store</h1>
+<h4 style="margin-top: 20px;">WOKIEE Shopify Theme is more than usual<br> theme. It is a powerful design tool. WOKIEE <br>is outstanding Premium Shopify theme. It<br> will be perfect solution for your current or<br> future webshop.</h4>
+</div>
+</div>
+</div>
+<div class="container " style=" margin-top: 150px;">
+  <div class="col-lg-12 col-md-10 col-sm-10" style="margin-top: 40px;">
+    <h4 class="text-center">KEEP IN TOUCH</h4>
+    <br>
+  <h1 class="text-center">
+    Enjoy 15% off your first order when<br> you join our mailing list.
+</h1></div>
+<form style="margin-top: 80px;">
+    <div class="input-group input-group-md justify-content-center">
+      <input type="text" size="50" placeholder="Enter your e-mail">
+      <br>
+      <div class="input-group-btn" style="">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+Join Us
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content bg-warning">
+      <div class="modal-header">  
+        <h4 class="modal-title" id="exampleModalLabel">Sign Up</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container bg-success">
+           <div class="row">
+             <div class="col-12">
+              <label>Name</label><br>
+               <input type="text" name="Name" placeholder="Enter Name" required>
+             </div>
+               <div class="col-12">
+                <label>Email</label><br>
+               <input type="email" name="email" placeholder="Enter Email" required>
+             </div>
+             <div class="col-12">
+              <label>Password</label><br>
+               <input type="password" name="password" placeholder="Enter password" required>
+             </div>
+             <div class="col-12">
+              <label>Address</label><br>
+               <input type="Address" name="Address" placeholder="Enter Address" required>
+             </div>
+             <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary" name="signup">Submit</button>
+</div>
+<div class="col-12">
+<h6>Already Account?</h6>
+<a class="bg-primary" href="signin.php" name="Signin"><h6>Sign In</h6></a>
+</div>
+      </div>
+   </div>
+</div>
+           </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</form>
+<div class="container" style="margin-top: 150px;">
+  <div class="row justify-content-center">
+    <h3>@ Follow Us on Instagram</h3>
+  </div>
+</div>
+<!-- FOOTER -->
+<footer style="background-color: black; margin-top: 150px;">
+<div class="top-border">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class=""><div class=""></div>
+          <address class="address01">
+<h2 class="text-white" style="margin-top: 130px;">
+  0800-433388-7
+</h2>
+<h6 style="color: #777777;" class="text-white">
+All week from 9 am to 9 pm
+</h6>
+</address>
+<div class="text-white" style="margin-top: 30px;">
+Address:GT Road UET Gate No.3 Main Gate UET<br>KICS Departmenet Audi Torium
+<p style="margin-top: 25px;"> 
+  <a href="" class="" class="text-white" >                
+  <span class="" >info@mydomain.com</span>
+  </a>
+</p>
+</div>
+  <a class="" target="" href="/"a style="padding: 10px;"><i class="fab fa-facebook-f"></i></a>
+  <a class="" target="" href="" style="padding: 10px;"><i class="fab fa-twitter"></i></a>
+  <a class="" target="" href="" style="padding: 10px;"><i class="fab fa-instagram"></i></a>
+ <a class="" target="" href="" style="padding: 10px;"><i class="fab fa-pinterest-square"></i></a>
+  <a class="" target="" href="" style="padding: 10px;"><i class="fab fa-youtube"></i></a>
+</div>
+      </div>
+      <div class="col-md-6"><div class="">
+          <div class="row"><div class="col-md-6">
+              <div class="">
+                <h4 class="text-white" style="margin-top: 130px;">CATEGORIES</h4>
+                <div class="" style="margin-top: 40px;">
+                  <a href=""><h6>Men's Watches</h6></a>
+                  <a href=""><h6>Women's Watches</h6></a>
+                </div>
+              </div>
+              
+            </div><div class="col-md-6">
+              <div class="">
+                <h4 class="text-white" style="margin-top: 130px;">BUY WITH US</h4>
+                <div class="" style="margin-top: 40px;">
+                  <a href="https://wokiee-demos.myshopify.com/pages/about/?preview_theme_id="><h6>About Us</h6></a>
+                  <a href=""><h6>FAQs</h6></a>
+                  <a href=""><h6>Privacy Policy</h6></a>
+                  <a href=""><h6>Cookie Policy</h6></a>
+                  <a href=""><h6>Terms and Conditions</h6></a>
+                </div>
+              </div>
+              
+            </div></div>
+        </div></div>
+    </div>
+  </div>
+</div><div class="">
+  <div class="container">
+    <div class="row">
+      <div class="" style="margin-top: 50px;">
+         <p class="text-white">© Wokiee 2019. All Rights Reserved</p>
+<br>
+<br>
+<br>
+<br>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>	
+	
+</body>
+</html>
